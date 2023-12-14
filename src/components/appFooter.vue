@@ -67,7 +67,12 @@ export default{
         <section class="lower-footer">
             <button> Sign up now</button>
             <div>
-                dd
+                <h2>follow us</h2>
+                <img src="../assets/img/footer-facebook.png" alt="facebook icon">
+                <img src="../assets/img/footer-twitter.png" alt="twitter icon">
+                <img src="../assets/img/footer-youtube.png" alt="youtube icon">
+                <img src="../assets/img/footer-pinterest.png" alt="pinterest icon">
+                <img src="../assets/img/footer-periscope.png" alt="periscope icon">
             </div>
         </section>
 
@@ -99,6 +104,8 @@ export default{
         }
 
         section.lower-footer{
+            padding-right: 15rem;
+
             @include flex (row, space-between , center);
             background-color: $footerBg;
                 button{
@@ -108,6 +115,23 @@ export default{
                     text-transform: uppercase;
                     padding: 0.7rem;
                     margin: 1.8rem 0 1.8rem 16rem;
+                }
+                h2{
+                    text-transform: uppercase;
+                    font-size: 1.2rem;
+                    color:blue;
+                }
+                div{
+                    @include flex (row, center , center);
+
+                    h2{
+                        margin-right: 1rem;
+                    }
+                    img{
+                        width: 25px;
+                        margin: 0.4rem;
+                    }
+  
                 }
         }
     

@@ -1,0 +1,7 @@
+// do le caratteristiche generali
+
+@use './partials/variables' as *;
+
+p{
+    color: $mainTextColor;
+}

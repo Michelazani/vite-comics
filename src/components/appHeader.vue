@@ -96,13 +96,9 @@ export default{
         
     }
     section.nav>ul li{
-        list-style: none;
         padding: 1rem;
         text-transform: uppercase;
         font-size: 0.8rem;
-    }
-    a{
-        text-decoration: none;
     }
   }
 

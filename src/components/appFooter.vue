@@ -63,6 +63,8 @@ export default{
                     <li><a href="#">DC Power Visa</a></li>
                 </ul>
             </article>
+            <img src="../assets/img/dc-logo-bg.png" alt="">
+
         </section>
         <section class="lower-footer">
             <button> Sign up now</button>
@@ -75,7 +77,7 @@ export default{
                 <img src="../assets/img/footer-periscope.png" alt="periscope icon">
             </div>
         </section>
-
+        
     </footer>
 </template>
 
@@ -100,6 +102,9 @@ export default{
                 text-transform: uppercase;
                 font-size: 1.2rem;
                 color:$white;
+            }
+            img{
+                width: 25rem;
             }
         }
 

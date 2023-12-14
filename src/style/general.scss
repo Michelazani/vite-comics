@@ -1,7 +1,26 @@
 // do le caratteristiche generali
 
 @use './partials/variables' as *;
+@use './partials/mixins' as *;
 
-p{
-    color: $mainTextColor;
+
+*{
+    @include reset;
 }
+
+// header
+a{
+    color: $textColor;
+}
+
+
+// main
+main{
+    background-color: $black;
+    h2{
+        color: $white;
+    }
+}
+
+
+

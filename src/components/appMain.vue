@@ -1,12 +1,22 @@
 <script >
+
+import listMovies from './listMovies.vue';
 export default{
+    name: 'appMain',
+    components:{
+        listMovies
+    }
 }
 </script>
 
 <template>
     <main>
         <section>
-            <h2> <i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i> Content goes here <i class="fa-solid fa-arrow-left" style="color: #ffffff;"></i></h2>
+            <button class=" upper-button">
+                current series
+            </button>
+            <listMovies/>
+            <button class="bottom-button">Load more</button>
         </section>
     </main>
 </template>
@@ -16,12 +26,21 @@ export default{
 @use '../style/partials/mixins' as *;
 
 main{
-    h2{
-        padding: 3rem 0 3rem 15rem;
-        margin-bottom: 0;
+    section{
+        @include flex(column, center, center);
+        position: relative;
+        button{
+        margin-bottom: 1rem;
+        padding: 0.2rem 1.5rem;
+        color: $white;
+        background-color: $blue;
+        border: none;
+        &.upper-button{
+            position: absolute;
+            bottom: 635px;
+            left: 225px;
+        }
     }
-    i{
-        margin: 0 1rem;
     }
 }
 

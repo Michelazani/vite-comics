@@ -93,7 +93,6 @@ export default{
     section.nav>ul{
         @include flex (row, center, center );
         margin-right: 15rem;
-        
     }
     section.nav>ul li{
         padding: 1rem;

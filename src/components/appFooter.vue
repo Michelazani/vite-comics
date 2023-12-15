@@ -118,16 +118,14 @@ export default{
             background-color: $footerBg;
                 button{
                     background-color: transparent;
-                    border: 2px solid blue;
+                    border: 2px solid $blue;
                     color: $white;
-                    text-transform: uppercase;
                     padding: 0.7rem;
                     margin: 1.8rem 0 1.8rem 16rem;
                 }
                 h2{
-                    text-transform: uppercase;
                     font-size: 1.2rem;
-                    color:blue;
+                    color: $blue;
                 }
                 div{
                     @include flex (row, center , center);

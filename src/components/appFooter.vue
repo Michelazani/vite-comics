@@ -95,7 +95,7 @@ export default{
                 margin-left: 14rem;
             }
             article{
-                padding: 3rem;
+                padding: 2rem 2rem 0 2rem;;
                
             }
             ul {
@@ -107,7 +107,9 @@ export default{
                 color:$white;
             }
             img{
-                width: 25rem;
+                width: 100%;
+                height: 420px;
+                object-fit: none;
             }
         }
 

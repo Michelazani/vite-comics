@@ -98,6 +98,9 @@ export default{
                 padding: 3rem;
                
             }
+            ul {
+                padding-left: 0;
+            }
             h2{
                 text-transform: uppercase;
                 font-size: 1.2rem;

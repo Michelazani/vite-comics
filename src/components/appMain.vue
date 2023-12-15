@@ -18,6 +18,7 @@ export default{
 main{
     h2{
         padding: 3rem 0 3rem 15rem;
+        margin-bottom: 0;
     }
     i{
         margin: 0 1rem;
